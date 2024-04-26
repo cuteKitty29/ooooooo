@@ -1,5 +1,6 @@
 import sqlalchemy
 from .db_session import SqlAlchemyBase
+from sqlalchemy import orm
 
 
 class Statistic(SqlAlchemyBase):
